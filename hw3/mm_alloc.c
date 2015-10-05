@@ -153,13 +153,6 @@ static void copy_block(s_block_ptr src, s_block_ptr dst)
   int *sdata, *ddata; 
   size_t i;
   
-  
-  
-  
-  
-  
-  
-  
   sdata = src->ptr;
   ddata = dst->ptr;
   for (i = 0; i * 4 < src->size && i * 4 < dst->size; i++)
